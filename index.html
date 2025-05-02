@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frantic Builder</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .profile {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .profile img.profile-pic {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid white;
+        }
+
+        .profile img.watermark {
+            max-width: 250px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .links {
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .links a {
+            text-decoration: none;
+            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
+            background: white;
+            color: #333;
+            font-size: 18px;
+            transition: background 0.3s;
+        }
+
+        .links a:hover {
+            background: #ddd;
+        }
+
+        .social-icons {
+            margin-top: auto;
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .social-icons a img {
+            width: 30px;
+            height: 30px;
+            filter: invert(1);
+            transition: transform 0.3s;
+        }
+
+        .social-icons a:hover img {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="profile">
+        <img src="images/profile.png" alt="Profile" class="profile-pic">
+        <!-- <img src="images/watermark.png" alt="Frantic Builder" class="watermark"> -->
+    </div>
+
+    <div class="links">
+        <!-- <a href="https://franticbuilder.com" target="_blank">Website</a> -->
+        <a href="https://facebook.com/profile.php?id=61575284320655" target="_blank">Facebook</a>
+        <a href="https://instagram.com/franticbuilder" target="_blank">Instagram</a>
+        <a href="https://www.youtube.com/@franticbuilder" target="_blank">YouTube</a>
+    </div>
+
+    <!-- <div class="social-icons">
+        <a href="https://facebook.com/profile.php?id=61575284320655" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+        </a>
+        <a href="https://instagram.com/franticbuilder" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+        </a>
+        <a href="https://www.youtube.com/@franticbuilder" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+        </a>
+    </div> -->
+
+</body>
+
+</html>
